@@ -1,0 +1,26 @@
+# Python 相關的忽略項目
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VSCode 編輯器設定（若使用 VSCode）
+.vscode/
+
+# Mac 系統文件
+.DS_Store
+
+# 忽略的虛擬環境文件夾
+env/
+venv/
+
+# 模型和輸出的文件
+pretest/output/*.csv      
+models/          
+cache/  
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
